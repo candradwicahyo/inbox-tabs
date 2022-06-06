@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <title>inbox tabs</title>
+</head>
+<body class="bg-gray">
+
+  <div class="container my-3">
+    <div class="row">
+      <div class="col-md-9 mx-auto">
+        <div class="bg-white p-4 rounded shadow-sm">
+
+          <div class="bg-primary bg-gradient p-4 rounded">
+            <h1 class="fw-normal text-white">Inbox Tabs</h1>
+            <p class="fw-light text-light">
+              sebuah program sederhana dengan nama inbox tabs yang dibuat dengan bahasa pemrograman javascript.
+            </p>
+          </div>
+
+          <div class="d-flex justify-content-center align-items-center my-3">
+            <button class="btn btn-outline-primary w-25 rounded-1 list active">All</button>
+            <button class="btn btn-outline-primary mx-2 rounded-1 list">Read</button>
+            <button class="btn btn-outline-primary rounded-1 list">Unread</button>
+          </div>
+
+          <ul class="list-group list-group-flush my-4">
+            <li class="list-group-item px-2 py-3 content" data-type="read">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-column">
+                  <h5 class="fw-normal search-item">Candra Dwi Cahyo</h5>
+                  <span class="fw-light search-item">programmer</span>
+                </div>
+                <span class="fw-light time"></span>
+              </div>
+              <p class="fw-light my-3 text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique possimus, quidem porro deserunt provident ullam, pariatur non nihil molestiae. Ullam doloremque alias odio veniam, quod.
+              </p>
+              <button class="btn btn-outline-primary rounded-1 read">Read More</button>
+            </li>
+            <li class="list-group-item px-2 py-3 content" data-type="unread">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-column">
+                  <div class="d-flex">
+                    <h5 class="fw-normal search-item">Cristiano Ronaldo</h5>
+                    <div class="circle"></div>
+                  </div>
+                  <span class="fw-light search-item">athlete</span>
+                </div>
+                <span class="fw-light time"></span>
+              </div>
+              <p class="fw-light my-3 text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique possimus, quidem porro deserunt provident ullam, pariatur non nihil molestiae. Ullam doloremque alias odio veniam, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore fugiat neque praesentium porro cum dignissimos ratione nesciunt, veniam nobis.
+              </p>
+              <button class="btn btn-outline-primary rounded-1 read">Read More</button>
+            </li>
+            <li class="list-group-item px-2 py-3 content" data-type="unread">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-column">
+                  <div class="d-flex">
+                    <h5 class="fw-normal search-item">Lionel Messi</h5>
+                    <div class="circle"></div>
+                  </div>
+                  <span class="fw-light search-item">athlete</span>
+                </div>
+                <span class="fw-light time"></span>
+              </div>
+              <p class="fw-light my-3 text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique possimus, quidem porro deserunt provident ullam, pariatur non nihil molestiae. Ullam.
+              </p>
+              <button class="btn btn-outline-primary rounded-1 read">Read More</button>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

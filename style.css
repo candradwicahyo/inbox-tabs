@@ -1,0 +1,13 @@
+:root {
+  --gray: #f4f7fe;
+}
+
+.bg-gray { background: var(--gray); }
+
+.circle {
+  width: 8px;
+  height: 8px;
+  background: royalblue;
+  border-radius: 50%;
+  margin: 9px 8px;
+}
